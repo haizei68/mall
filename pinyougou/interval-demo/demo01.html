@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>interval的倒计时实现</title>
+    
+    <!--引入angular相关-->
+    <script src="angularjs/angular.min.js"></script>
+    
+    <script>
+        //模块
+        var app=angular.module('pinyougou',[]);
+        
+        //创建controller
+        app.controller('intervalController',function ($scope, $interval) {
+            $scope.num=10;
+
+            //表示每秒钟执行一次function()匿名函数
+            time=$interval(function () {
+                $scope.num--;
+
+                //结束当前循环
+                if ($scope.num<=0){
+                    alert('结束')
+                    $interval.cancel(time);
+                }
+            },1000)
+        })
+    </script>
+    
+</head>
+<body ng-app="pinyougou" ng-controller="intervalController">
+
+    {{num}}
+</body>
+</html>

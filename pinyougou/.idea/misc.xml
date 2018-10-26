@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/cas-client-demo01" />
+    <file type="web" url="file://$PROJECT_DIR$/cas-client-demo02" />
+    <file type="web" url="file://$PROJECT_DIR$/cas-security-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/demo" />
+    <file type="web" url="file://$PROJECT_DIR$/dubbo-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/dubbo-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-cart-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-cart-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-content-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-manage-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-order-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-page-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-pay-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-portal-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-search-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-search-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-seckill-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-seckill-task" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-seckill-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-sellergoods-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-shop-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-user-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-user-web" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-security-demo" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pinyougou-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/pinyougou-reverser/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-service/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-data-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/springdatasolr-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/freemarker-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/jms-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/jms-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/itheima-message-service/pom.xml" />
+        <option value="$PROJECT_DIR$/cas-client-demo01/pom.xml" />
+        <option value="$PROJECT_DIR$/cas-client-demo02/pom.xml" />
+        <option value="$PROJECT_DIR$/cas-security-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/pinyougou-cart-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/pinyougou-sellgoods-interface/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://www.springframework.org/schema/cache/spring-cache.xsd" location="F:/JavaEE_55期/培训视频/39期就业班/第三阶段_框架/day05-day08_spring/spring资源/spring-framework-5.0.2.RELEASE-dist/spring-framework-5.0.2.RELEASE/schema/cache/spring-cache.xsd" />
+    <resource url="http://www.springframework.org/schema/context/spring-context.xsd" location="F:/JavaEE_55期/培训视频/39期就业班/第三阶段_框架/day05-day08_spring/spring资源/spring-framework-5.0.2.RELEASE-dist/spring-framework-5.0.2.RELEASE/schema/context/spring-context.xsd" />
+    <resource url="http://www.springframework.org/schema/mvc/spring-mvc.xsd" location="F:/JavaEE_55期/培训视频/39期就业班/第三阶段_框架/day05-day08_spring/spring资源/spring-framework-5.0.2.RELEASE-dist/spring-framework-5.0.2.RELEASE/schema/mvc/spring-mvc.xsd" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8 (1)" project-jdk-type="JavaSDK" />
+</project>

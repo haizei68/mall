@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>指令</title>
+    <!--引入-->
+    <script src="js/angular.min.js"></script>
+
+    <script>
+        //创建一个angularjs模块
+        var  app=angular.module('pinyougou',[]);
+
+        //编写一个控制器
+        app.controller('demoController',function ($scope,$http) {
+            //获取远程数据的方法
+            $scope.getData=function () {
+                $http.get('data.json').success(function (response) {
+                    //定义一个变量接受远程请求响应数据
+                    $scope.list=response;
+                })
+            }
+        })
+    </script>
+</head>
+<body>
+    <h3>angularjs指令-输出字符</h3>
+
+    <div ng-app="pinyougou" ng-controller="demoController" ng-init="getData()">
+        <div ng-repeat="entity in list">
+           {{entity.username}}的语文得了{{entity.yuwen}},数学得了{{entity.shuxue}}
+
+        </div>
+    </div>
+</body>
+</html>

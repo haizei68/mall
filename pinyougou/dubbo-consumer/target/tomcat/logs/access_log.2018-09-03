@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [03/Sep/2018:17:35:43 +0800] "GET / HTTP/1.1" 404 951 http-bio-18082-exec-1 85
+0:0:0:0:0:0:0:1 - - [03/Sep/2018:17:35:43 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-18082-exec-2 1
+0:0:0:0:0:0:0:1 - - [03/Sep/2018:17:36:01 +0800] "GET /brand/list.shtml HTTP/1.1" 404 949 http-bio-18082-exec-4 17
+0:0:0:0:0:0:0:1 - - [03/Sep/2018:17:36:01 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-18082-exec-6 1
+0:0:0:0:0:0:0:1 - - [03/Sep/2018:17:36:30 +0800] "GET /admin/brand.html HTTP/1.1" 404 983 http-bio-18082-exec-7 2
+0:0:0:0:0:0:0:1 - - [03/Sep/2018:17:36:53 +0800] "GET /admin/brand.html HTTP/1.1" 404 983 http-bio-18082-exec-8 1
+0:0:0:0:0:0:0:1 - - [03/Sep/2018:17:37:39 +0800] "GET / HTTP/1.1" 404 951 http-bio-18082-exec-2 2
+0:0:0:0:0:0:0:1 - - [03/Sep/2018:17:37:43 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-18082-exec-2 1
+0:0:0:0:0:0:0:1 - - [03/Sep/2018:17:37:44 +0800] "GET /brand/list.shtml HTTP/1.1" 404 949 http-bio-18082-exec-2 1

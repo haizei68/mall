@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>interval的倒计时实现</title>
+    
+    <!--引入angular相关-->
+    <script src="angularjs/angular.min.js"></script>
+    
+    <script>
+        //模块
+        var app=angular.module('pinyougou',[]);
+        
+        //创建controller
+        app.controller('intervalController',function ($scope, $interval) {
+            //毫秒
+            $scope.num=5679000;
+
+            //表示每秒钟执行一次function()匿名函数
+            time=$interval(function () {
+
+                //将时间减去1秒
+                $scope.num-=1000;
+                if ($scope.num<=0){
+                    $interval.cancel(time);
+                } else{
+                    //将毫秒转成天时分秒
+                    $scope.timestr=datefloor( $scope.num);
+                }
+            },1000)
+        })
+
+        //将秒转成多少天,多少小时,多少分钟,多小秒
+        datefloor=function (num) {
+            //1秒有毫秒
+            var second=1000;
+            //1分钟有多少毫秒
+            var minute=second*60;
+            //1小时有多少毫秒
+            var hour = minute*60;
+            //一天有多少毫秒
+            var day=hour*24;
+
+
+            //天
+            var days=Math.floor(num/day);
+
+           //小时   =总时间-天
+            var hours=Math.floor((num%day)/hour);
+
+            //分     =总时间-天-时
+            var minutes=Math.floor((num%hour)/minute);
+            //秒
+            var seconds=Math.floor((num%minute)/second);
+
+            //总时间=天+时+分+秒
+            return days+":"+hours+":"+minutes+":"+seconds;
+        }
+    </script>
+    
+</head>
+<body ng-app="pinyougou" ng-controller="intervalController">
+    {{timestr}}
+</body>
+</html>

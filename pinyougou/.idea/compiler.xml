@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cas-client-demo01" />
+        <module name="cas-client-demo02" />
+        <module name="cas-security-demo" />
+        <module name="demo" />
+        <module name="dubbo-consumer" />
+        <module name="dubbo-service" />
+        <module name="freemarker-demo" />
+        <module name="itheima-message-service" />
+        <module name="jms-consumer" />
+        <module name="jms-producer" />
+        <module name="pinyougou-cart-interface" />
+        <module name="pinyougou-cart-service" />
+        <module name="pinyougou-cart-web" />
+        <module name="pinyougou-common" />
+        <module name="pinyougou-content-interface" />
+        <module name="pinyougou-content-service" />
+        <module name="pinyougou-manage-web" />
+        <module name="pinyougou-mapper" />
+        <module name="pinyougou-model" />
+        <module name="pinyougou-order-interface" />
+        <module name="pinyougou-order-service" />
+        <module name="pinyougou-page-interface" />
+        <module name="pinyougou-page-service" />
+        <module name="pinyougou-pay-interface" />
+        <module name="pinyougou-pay-service" />
+        <module name="pinyougou-portal-web" />
+        <module name="pinyougou-reverser" />
+        <module name="pinyougou-search-interface" />
+        <module name="pinyougou-search-service" />
+        <module name="pinyougou-search-web" />
+        <module name="pinyougou-seckill-interface" />
+        <module name="pinyougou-seckill-service" />
+        <module name="pinyougou-seckill-task" />
+        <module name="pinyougou-seckill-web" />
+        <module name="pinyougou-sellergoods-interface" />
+        <module name="pinyougou-sellergoods-service" />
+        <module name="pinyougou-shop-web" />
+        <module name="pinyougou-solr-util" />
+        <module name="pinyougou-user-interface" />
+        <module name="pinyougou-user-service" />
+        <module name="pinyougou-user-web" />
+        <module name="spring-data-redis" />
+        <module name="spring-security-demo" />
+        <module name="springboot-demo" />
+        <module name="springdatasolr-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="cas-client-demo01" target="1.5" />
+      <module name="cas-client-demo02" target="1.5" />
+      <module name="cas-security-demo" target="1.5" />
+      <module name="demo" target="1.5" />
+      <module name="dubbo-consumer" target="1.5" />
+      <module name="dubbo-service" target="6" />
+      <module name="freemarker-demo" target="1.5" />
+      <module name="itheima-message-service" target="1.6" />
+      <module name="jms-consumer" target="6" />
+      <module name="jms-producer" target="6" />
+      <module name="pinyougou-cart-interface" target="1.5" />
+      <module name="pinyougou-cart-service" target="6" />
+      <module name="pinyougou-cart-web" target="6" />
+      <module name="pinyougou-common" target="1.5" />
+      <module name="pinyougou-content-interface" target="1.5" />
+      <module name="pinyougou-content-service" target="6" />
+      <module name="pinyougou-manage-web" target="1.5" />
+      <module name="pinyougou-mapper" target="1.5" />
+      <module name="pinyougou-model" target="1.5" />
+      <module name="pinyougou-order-interface" target="1.5" />
+      <module name="pinyougou-order-service" target="6" />
+      <module name="pinyougou-page-interface" target="1.5" />
+      <module name="pinyougou-page-service" target="6" />
+      <module name="pinyougou-parent" target="1.5" />
+      <module name="pinyougou-pay-interface" target="1.5" />
+      <module name="pinyougou-pay-service" target="6" />
+      <module name="pinyougou-portal-web" target="1.5" />
+      <module name="pinyougou-reverser" target="1.8" />
+      <module name="pinyougou-search-interface" target="1.5" />
+      <module name="pinyougou-search-service" target="6" />
+      <module name="pinyougou-search-web" target="1.5" />
+      <module name="pinyougou-seckill-interface" target="1.5" />
+      <module name="pinyougou-seckill-service" target="6" />
+      <module name="pinyougou-seckill-task" target="1.5" />
+      <module name="pinyougou-seckill-web" target="1.5" />
+      <module name="pinyougou-sellergoods-interface" target="1.5" />
+      <module name="pinyougou-sellergoods-service" target="6" />
+      <module name="pinyougou-shop-web" target="6" />
+      <module name="pinyougou-solr-util" target="1.5" />
+      <module name="pinyougou-user-interface" target="1.5" />
+      <module name="pinyougou-user-service" target="6" />
+      <module name="pinyougou-user-web" target="1.5" />
+      <module name="spring-data-redis" target="1.5" />
+      <module name="spring-security-demo" target="1.5" />
+      <module name="springboot-demo" target="1.6" />
+      <module name="springdatasolr-demo" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

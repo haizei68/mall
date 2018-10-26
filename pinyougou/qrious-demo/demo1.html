@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>二维码</title>
+    <script src="qrious.min.js"></script>
+</head>
+<body>
+    <img id="qrious">
+    <script src="qrious.min.js"></script>
+
+    <script>
+        var qr = new QRious({
+           element:document.getElementById('qrious'),
+           size:300,
+            level:'H',
+            foreground:'blue',
+            value:'weixin://wxpay/bizpayurl?pr=bBjLta9'
+        })
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+com\pinyougou\util\CookieUtil.class
+com\pinyougou\http\Result.class
+com\pinyougou\util\HttpClient.class
+com\pinyougou\util\IdWorker.class
+com\pinyougou\fastdfs\UploadUtil.class
+com\pinyougou\mq\MessageInfo.class
+com\pinyougou\util\HttpClient$1.class
